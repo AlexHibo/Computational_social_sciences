@@ -1,13 +1,3 @@
-You can start by activating the virtual environment and installing the required dependencies.
+The goal of this lab is to study, with very simple methods, a sample from the [Digital Services Act Transparency Database](https://transparency.dsa.ec.europa.eu/dashboard). The database collects moderation decision by online platforms (VLOPs, Very Large Online Platforms), as identified by the [DSA](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX%3A32022R2065#enc_1) and the European Commission.
 
-`source venv/bin/activate`
-
-`pip install -r requirements.txt`
-
-You then need to activate the virtual environment you created in Jupyter, with command:
-`python -m ipykernel install --user --name=venv`
-
-Then start the jupyter server:
-`jupyter lab`
-
-And open the notebook. In the menu, choose "kernel" -> "Change kernel" to choose the venv kernel you just added. You can now get started!
+The main goal of the lab is to gain insights on the differentiated moderation practices of social media platforms subject to the DSA's obligations. To do this, we us a stratified sample of the transparency database, filtered to contain 70000 decisions by social media platforms.
